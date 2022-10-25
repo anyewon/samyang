@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 14px;
+    font-family: 'Noto Sans KR', 'Malgun Gothic',sans-serif;
+    letter-spacing: -1px;
+    /* background: #555; */
+    overflow-x: hidden;
+    font-weight: 400;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    /* display: block; */
+    text-decoration: none;
+    text-align: center;
+}

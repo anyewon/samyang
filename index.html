@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <title>삼양식품</title>
+</head>
+<body>
+    <header>
+        <div id="quick_menu">
+            <div class="quick_content">
+                <a href="">홍보관</a>
+                <a href="">지속가능경영</a>
+                <a href="">고객지원</a>
+            </div>
+            <div class="quick_btn">
+                <a href="#"></a>
+            </div>
+        </div>
+        <div class="header_color"></div>
+        <div class="header_top">
+            <div class="header_top_content">
+                <p>행복과 사랑이 넘치는<span> 삼양식품 </span>입니다</p>
+                <div class="btn_right">
+                    <a href="https://blog.naver.com/samyangfoods" target="_blank">
+                        <img src="images/ico_sns_blog.png" alt="블로그">
+                    </a>
+                    <a href="https://www.instagram.com/samyangfoods/" target="_blank">
+                        <img src="images/ico_sns_insta.png" alt="인스타그램">
+                    </a>
+                    <a href="https://twitter.com/samyangfoods" target="_blank">
+                        <img src="images/ico_sns_twitter.png" alt="트위터">
+                    </a>
+                    <a href="https://www.facebook.com/samyangfoods" target="_blank">
+                        <img src="images/ico_sns_facebook.png" alt="페이스북">
+                    </a>
+                    
+                    <img src="images/gnb_shop.gif" alt="샵 버튼" class="img_icon">
+                    <button class="header_btn"><a href="https://www.samyangfoods.com/kor/ir/bulletin.do">투자정보</a></button>
+                    <button class="header_btn"><a href="https://job.samyangfoods.com/" target="_blank">인재채용</a></button>
+                    <select name="language" id="language" class="header_btn1">
+                        <option value="kor" selected>KOR</option>
+                        <option value="eng">ENG</option>
+                        <option value="chn">CHN</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="nav_content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="로고">
+                    </a>
+                </div>
+                <div id="main_nav">
+                    <ul id="main_nav_ul">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">홍보관</a></li>
+                        <li><a href="#">지속가능경영</a></li>
+                        <li><a href="#">브랜드</a></li>
+                        <li><a href="#">제품</a></li>
+                        <li><a href="#">고객지원</a></li>
+                    </ul>
+                </div>
+                <div id="sub_nav">
+                    <div id="sub_nav_content">
+                        <div class="sub_menu_right">
+                            <ul class="sub_menu sub_ul_margin1" id="sub_ul_hover1">
+                                <li><a href="#">삼양식품</a></li>
+                                <li><a href="#">지주사</a></li>
+                                <li><a href="#">계열사</a></li>
+                                <li><a href="#">해외법인</a></li>
+                                <li><a href="#">공장</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            </ul>
+                            <ul class="sub_menu sub_ul_margin2" id="sub_ul_hover2">
+                                <li><a href="#">삼양소식</a></li>
+                                <li><a href="#">홍보영상</a></li>
+                                <li><a href="#">호치와 친구들</a></li>
+                                <li><a href="#">음원/영상</a></li>
+                                <li><a href="#">엠버서더</a></li>
+                                <li><a href="#">삼양역사관</a></li>
+                                <li><a href="#">삼양 사연</a></li>
+                                <li><a href="#">레시피</a></li>
+                            </ul>
+                            <ul class="sub_menu sub_ul_margin3"
+                            id="sub_ul_hover3">
+                                <li><a href="#">안전보건환경</a></li>
+                                <li><a href="#">윤리·인권경영</a></li>
+                                <li><a href="#">소비자중심경영</a></li>
+                                <li><a href="#">사회공헌</a></li>
+                                <li><a href="#">지배구조</a></li>
+                            </ul>
+                            <ul class="sub_menu sub_ul_margin4"
+                            id="sub_ul_hover4">
+                                <li><a href="#">삼양라면</a></li>
+                                <li><a href="#">불닭볶음면</a></li>
+                                <li><a href="#">짜짜로니</a></li>
+                                <li><a href="#">별뽀빠이</a></li>
+                                <li><a href="#">삼양유기농우유</a></li>
+                            </ul>
+                            <ul class="sub_menu sub_ul_margin5"
+                            id="sub_ul_hover5">
+                                <li><a href="#">라면</a></li>
+                                <li><a href="#">스낵</a></li>
+                                <li><a href="#">유제품</a></li>
+                                <li><a href="#">소스·간편식</a></li>
+                            </ul>
+                            <ul class="sub_menu sub_ul_margin6"
+                            id="sub_ul_hover6">
+                                <li class="li_padding"><a href="#">고객만족센터</a></li>
+                                <li class="li_padding"><a href="#">고객문의</a></li>
+                                <li class="li_padding"><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="slide_container">
+        <div class="slide_contents">
+            <ul class="slide">
+                <li class="on">
+                    <a href="https://www.samyangfoods.com/kor/content/overview/index.do" style="background: #cffb7f url(images/banner1.jpg) no-repeat center;">
+                        <!-- <img src="images/banner1.jpg" alt=""> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.samyangfoods.com/kor/brand/samyangRamen.do" style="background: #ffcc93 url(images/banner2.jpg) no-repeat center;">
+                        <!-- <img src="images/banner2.jpg" alt=""> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.samyangfoods.com/kor/brand/spicyRamen.do" style="background:#fcab7b url(images/banner3.jpg) no-repeat center;">
+                        <!-- <img src="images/banner3.jpg" alt=""> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.samyangfoods.com/kor/brand/series.do" style="background: #be96b1 url(images/banner4.jpg) no-repeat center;">
+                        <!-- <img src="images/banner4.jpg" alt=""> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.samyangfoods.com/kor/brand/popeye.do" style="background: #a8b8ed url(images/banner5.jpg) no-repeat center;">
+                        <!-- <img src="images/banner5.jpg" alt=""> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.samyangfoods.com/kor/brand/organicMilk.do" style="background: #c1f06f url(images/banner6.jpg) no-repeat center;">
+                        <!-- <img src="images/banner6.jpg" alt=""> -->
+                    </a>
+                </li>
+            </ul>
+            <div class="control_btn">
+                <a href="#" class="prev">
+                    <img src="images/btn_prev.png" alt="이전버튼">
+                </a>
+                <a href="#" class="next">
+                    <img src="images/btn_next.png" alt="다음버튼">
+                </a>
+            </div>
+            <div class="dot">
+                <a href="#" class="on"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+    <section class="section1">
+        <div class="menu_content">
+            <h1>삼양 제품소개</h1>
+            <p class="n_m_font1">Delicious Together!</p>
+            <p class="n_m_font2">다양한 제품을<br>한곳에서 즐기세요!</p>
+            <div class="type_btn">
+                <ul class="type_btn_ul">
+                    <li class="on">
+                        라면
+                        <a href="#none">
+                            <img src="images/product_tab1.png" alt="라면 버튼">
+                        </a>
+                    </li>
+                    <li>
+                        스낵
+                        <a href="#none">
+                            <img src="images/product_tab2.png" alt="스낵버튼">
+                        </a>
+                    </li>
+                    <li>
+                        유제품
+                        <a href="#none">
+                            <img src="images/product_tab3.png" alt="유제품 버튼">
+                        </a>
+                    </li>
+                    <li>
+                        소스·간편식
+                            <a href="#none">
+                                <img src="images/product_tab4.png" alt="소스,간편식 버튼">
+                            </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab_menu">
+                <div class="menu_wrap">
+                    <div class="tab_container">
+                        <div id="tab1" class="tab_content on">
+                            <div class="menu_dot">
+                                <a href="#none" class="on"></a>
+                                <a href="#none"></a>
+                                <a href="#none"></a>
+                                <a href="#none"></a>
+                            </div>
+                            <ul class="list_ul">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/new_menu2.png" alt="코다리볶음면 이미지">
+                                        <p>입맛을 돋우는 매콤한</p>
+                                        <strong>코다리볶음면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=561">
+                                        <img src="images/menu2.png" alt="흑삼계탕면 이미지">
+                                        <p>여름 한정판 이색 보양식라면</p>
+                                        <strong>흑삼계탕면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=562">
+                                        <img src="images/menu3.png" alt="짜장불닭볶음면 이미지">
+                                        <p>짜장풍미와 화끈한 불닭이 입안에서 춤춘닭!</p>
+                                        <strong>짜장불닭볶음면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=545">
+                                        <img src="images/new_menu1.png" alt="큰컵 짜장불닭볶음면 이미지">
+                                        <p>짜장과 불닭소스를 한 컵에 담았닭</p>
+                                        <strong>큰컵 짜장불닭볶음면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=544">
+                                        <img src="images/new_menu3.png" alt="불닭 짬뽕 이미지">
+                                        <p>진한 국물의 불닭맛 고기짬뽕</p>
+                                        <strong>불닭짬뽕</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=542">
+                                        <img src="images/menu7.png" alt="비빔밀면 이미지">
+                                        <p>깔끔한 매운맛</p>
+                                        <strong>비빔밀면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=539">
+                                        <img src="images/menu8.png" alt="큰컵 뽀끼뽀끼크림라뽀기 이미지">
+                                        <p>세상의 온갖 맛있음을 듬뿍!</p>
+                                        <strong>큰컵 뽀끼뽀끼크림라뽀기</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=537">
+                                        <img src="images/menu9.png" alt="러블리핫불닭볶음면 이미지">
+                                        <p>누구나 즐기는 러블리한 매운맛</p>
+                                        <strong>러블리핫불닭볶음면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=486">
+                                        <img src="images/menu10.png" alt="삼양라면 매운맛 이미지">
+                                        <p>깔끔하고 진한 매운맛</p>
+                                        <strong>삼양라면 매운맛</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/menu11.png" alt="삼양라면 오리지널 이미지">
+                                        <p>더 깊고 진해진 라면의 원조</p>
+                                        <strong>삼양라면 오리지널</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div id="tab2" class="tab_content">
+                            <div class="menu_dot">
+                                <a href="#none" class="on"></a>
+                                <a href="#none"></a>
+                                <a href="#none"></a>
+                                <a href="#none"></a>
+                            </div>
+                            <ul class="list_ul">
+                                <li>
+                                    <a href="">
+                                        <img src="images/menu2-1.png" alt="불닭으로딱!집게 이미지">
+                                        <p>맛있게 딱!잡았다</p>
+                                        <strong>불닭으로딱!집게</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=560">
+                                        <img src="images/menu2-2.png" alt="츄러스짱구 이미지">
+                                        <p>달콤하고 바삭한 시나몬 츄러스맛</p>
+                                        <strong>츄러스짱구</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=559">
+                                        <img src="images/menu2-3.png" alt="페어링바이츠바질베이글칩 이미지">
+                                        <p>향긋하고 바삭한 바질 베이글칩</p>
+                                        <strong>페어링바이츠 바질 베이글칩</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=558">
+                                        <img src="images/menu2-4.png" alt="페어링바이츠통밀베이글칩 이미지">
+                                        <p>고소하고 바삭한 통밀 베이글칩</p>
+                                        <strong>페어링바이츠 통밀 베이글칩</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=557">
+                                        <img src="images/menu2-5.png" alt="사또밥 꿀버터고구마맛 이미지">
+                                        <p>달콤한 고구마가 사르르</p>
+                                        <strong>사또밥 꿀버터고구마맛</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=535">
+                                        <img src="images/menu2-6.png" alt="삼양라면스낵 이미지">
+                                        <p>삼양라면의 깊은맛을 손쉽게 바사삭!</p>
+                                        <strong>삼양라면스낵</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=81">
+                                        <img src="images/menu2-7.png" alt="곡물치즈롤 이미지">
+                                        <p>자연을 담은 부드러운</p>
+                                        <strong>곡물치즈롤</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=79">
+                                        <img src="images/menu2-8.png" alt="사또밥 이미지">
+                                        <p>달콤하게 사르르~</p>
+                                        <strong>사또밥</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=77">
+                                        <img src="images/menu2-9.png" alt="짱구 이미지">
+                                        <p>ORIGINAL 최초의 짱구</p>
+                                        <strong>짱구</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/menu2-10.png" alt="별뽀빠이 이미지">
+                                        <p>국내최초 라면과자</p>
+                                        <strong>별뽀빠이</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab3" class="tab_content">
+                            <div class="menu_dot">
+                                <a href="#none" class="on"></a>
+                            </div>
+                            <ul class="list_ul">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/menu3-2.png" alt="삼양목장유기농우유 750ml 이미지">
+                                        <p>유기농원유 100%</p>
+                                        <strong>삼양목장유기농우유 750ml</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=84">
+                                        <img src="images/menu3-1.png" alt="삼양목장유기농우유 200ml 이미지">
+                                        <p>유기농원유 100%</p>
+                                        <strong>삼양목장유기농우유 200ml</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab4" class="tab_content">
+                            <div class="menu_dot">
+                                <a href="#none" class="on"></a>
+                                <a href="#none"></a>
+                                <a href="#none"></a>
+                                <a href="#none"></a>
+                            </div>
+                            <ul class="list_ul">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/menu4-1.png" alt="마라불닭납작당면 이미지">
+                                        <p>불닭과 마라의 화끈얼얼한 맛</p>
+                                        <strong>마라불닭납작당면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=565">
+                                        <img src="images/menu4-2.png" alt="불닭렌당커리 이미지">
+                                        <p>정통 커리에 불닭소스의 매콤함을 더해</p>
+                                        <strong>불닭렌당커리</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=564">
+                                        <img src="images/menu4-3.png" alt="불닭마크니커리 이미지">
+                                        <p>정통 커리에 불닭소스의 매콤함을 더해</p>
+                                        <strong>불닭마크니커리</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=563">
+                                        <img src="images/menu4-4.png" alt="불닭빈달루커리 이미지">
+                                        <p>정통 커리에 불닭소스의 매콤함 더해</p>
+                                        <strong>불닭빈달루커리</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=546">
+                                        <img src="images/menu4-5.png" alt="불닭납작당면 이미지">
+                                        <p>쫄깃탱글하게 씹히는 매운맛!</p>
+                                        <strong>불닭납작당면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=543">
+                                        <img src="images/menu4-6.png" alt="불닭스리라차 이미지">
+                                        <p>깔끔한 매운맛의 저지방 소스</p>
+                                        <strong>불닭스리라차</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=529">
+                                        <img src="images/menu4-7.png" alt="로제불닭떡볶이 이미지">
+                                        <p>내가 찾던 완벽한 K-로제</p>
+                                        <strong>로제불닭떡볶이</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=528">
+                                        <img src="images/menu4-8.png" alt="로제불닭납작당면 이미지">
+                                        <p>내가 찾던 완벽한 K-로제</p>
+                                        <strong>로제불닭납작당면</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.samyangfoods.com/kor/brand/view.do?searchCateCd1=&searchMainUseYn=Y&seq=526">
+                                        <img src="images/menu4-9.png" alt="불닭맛장 이미지">
+                                        <p>온가족이 즐기는 만능양념장</p>
+                                        <strong>불닭맛장</strong>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/menu4-10.png" alt="자이언트 불닭소스 이미지">
+                                        <p>양 걱정 없이 마음껏 즐기는!</p>
+                                        <strong>자이언트 불닭소스</strong>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item1 item1-1"></div>
+                    <div class="item1 item2-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="new_menu">
+            <ul class="n_slide">
+                <li>
+                    <a href="https://www.samyangfoods.com/kor/brand/view.do?seq=545">
+                        <img src="images/new_menu2.png" alt="신메뉴1">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.samyangfoods.com/kor/brand/view.do?seq=568">
+                        <img src="images/new_menu1.png" alt="신메뉴1">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.samyangfoods.com/kor/brand/view.do?seq=544">
+                        <img src="images/new_menu3.png" alt="신메뉴1">
+                    </a>
+                </li>
+            </ul>
+            <div class="ctrol_dot">
+                <a href="#" class="on"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div>
+            <h2>삼양 커뮤니티</h2>
+            <p class="font1">삼양식품은 여러분과 함께 맛있는 세상을 만들어갑니다.
+            </p>
+            <div class="sns_btn">
+                <a href="https://www.facebook.com/samyangfoods" target="_blank">
+                    <img src="images/ico_facebook.png" alt="페이스북 버튼">
+                </a>
+                <a href="https://www.instagram.com/samyangfoods/" target="_blank">
+                    <img src="images/ico_insta.png" alt="인스타 버튼">
+                </a>
+                <a href="https://blog.naver.com/NBlogTop.naver?isHttpsRedirect=true&blogId=samyangfoods" target="_blank">
+                    <img src="images/ico_blog.png" alt="블로그 버튼">
+                </a>
+                <a href="https://twitter.com/samyangfoods" target="_blank">
+                    <img src="images/ico_twitter.png" alt="트위터 버튼">
+                </a>
+            </div>
+            <div class="community_box">
+                <div class="left_box">
+                    <iframe name="f2e57275457684" width="253px" height="623px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v10.0/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3e911915a7df5%26domain%3Dwww.samyangfoods.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.samyangfoods.com%252Ff3aed88516babc4%26relation%3Dparent.parent&amp;container_width=253&amp;height=623&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fsamyangfoods%2F&amp;locale=ko_KR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=253" style="border: none; visibility: visible; width: 253px; height: 623px;" class=""></iframe>
+                </div>
+                <div class="center_box">
+                    <div class="center_top">
+                        <p class="title">홍보영상</p>
+                        <p class="text">삼양식품의 다채로운 스토리를 <br>영상으로 보여드립니다.</p>
+                        <a href="https://www.samyangfoods.com/kor/publicity/public/list.do">
+                            <img src="images/btn_more_vod.png" alt="자세히보기 버튼">
+                        </a>
+                    </div>
+                    <div class="center_bottom">
+                        <p class="title">삼양 사연</p>
+                        <p class="text">삼양식품과 함께한<br>여러분의 다양한 사연을 기다립니다.</p>
+                        <a href="https://www.samyangfoods.com/kor/community/story/list.do">
+                            <img src="images/btn_more_comm01.png" alt="자세히보기 버튼">
+                        </a>
+                    </div>
+                </div>
+                <div class="right_box">
+                    <div class="right_top">
+                        <p class="title">맛있는 나눔</p>
+                        <p class="text">모두가 행복한 맛있는 세상</p>
+                        <a href="https://www.samyangfoods.com/kor/information/probono/list.do">
+                            <img src="images/btn_more_comm03.png" alt="자세히보기 버튼">
+                        </a>
+                    </div>
+                    <div class="right_center">
+                        <p class="title1">공지사항</p>
+                        <p class="text1">삼양식품 개인정보취급방침 개정안내</p>
+                        <p class="text2">2022.09.07</p>
+                        <a href="https://www.samyangfoods.com/kor/community/notice/list.do">
+                            <img src="images/btn_notice.png" alt="더보기 버튼">
+                        </a>
+                    </div>
+                    <div class="right_bottom">
+                        <p class="title">삼양 맛샵 오픈</p>
+                        <p class="text">삼양식품의 다양한 제품을 만나보세요.</p>
+                        <a href="https://brand.naver.com/syfoodshop" target="_blank" class="add_btn">
+                            <img src="images/btn_more_comm02.png" alt="자세히보기 버튼">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_content">
+            <div class="f_logo">
+                <img src="images/logo2.png" alt="footer의 로고">
+            </div>
+            <div class="f_date">
+                <ul>
+                    <li>
+                        <a href="">회사소개 <span>|</span></a>
+                    </li>
+                    <li>
+                        <a href="">고객지원 <span>|</span></a>
+                    </li>
+                    <li>
+                        <a href="">IR <span>|</span></a>
+                    </li>
+                    <li>
+                        <a href="">인재채용 <span>|</span></a> 
+                    </li>
+                    <li>
+                        <a href="">찾아오시는길 <span>|</span></a> 
+                    </li>
+                    <li>
+                        <a href=""><b>개인정보처리방침</b> <span>|</span></a> 
+                    </li>
+                </ul>
+                <address>
+                    <span>서울특별시 성북구 오패산로3길 104</span><span>(하월곡동) Tel. 02-940-3000</span><span>Fax. 02-942-4350</span>
+                    <p>
+                    ※ 고객지원센터 : 080-940-3333 (무료상담전화)<br>
+                    상담시간 (평일) 오전 9시 - 오후 6시 [점심시간 : 오후 12시 - 1시 ]</p>
+                    <p class="f_text">Copyright © Samyang Foods Co., Ltd All Rights Reserved.</p>
+                </address>
+            </div>
+            <div class="f_right">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="images/ico_sns_blog2.png" alt="블로그 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/ico_sns_twitter2.png" alt="트위터 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/ico_sns_insta2.png" alt="인스타 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/ico_sns_facebook2.png" alt="페이스북 아이콘">
+                        </a>
+                    </li>
+                </ul>
+                <div class="f_ri_ri">
+                    <select name="f_sele" id="f_sel">
+                        <option value="f_list1">삼양맛집</option>
+                        <option value="f_list2">삼양목장</option>
+                        <option value="f_list3">삼양이건장학재단</option>
+                        <option value="f_list4">삼양원동문화재단</option>
+                    </select>
+                    <img src="images/award_2017.jpg" alt="푸터 이미지">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
